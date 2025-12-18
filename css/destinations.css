@@ -31,9 +31,6 @@
 }
 .destinations .item p {
   margin-bottom: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
-  margin-bottom: 24px;
 }
 .destinations .button {
   width: 100%;
