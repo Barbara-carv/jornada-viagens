@@ -1,8 +1,17 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
+}
+
+.hero .hero-img {
   background-image: url(../img/hero-mobile.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -11,8 +20,8 @@
     margin: 0px;
     font-weight: var(--text-weight);
     font-size: 20px;
-    text-align: center;
     line-height: 1.5;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,6 +29,11 @@
     height: 620px;
     background-image: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
   .hero h2{
@@ -33,6 +47,11 @@
     height: 620px;
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
     background-size: cover;
   }
   .hero h2{
